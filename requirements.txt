@@ -1,0 +1,14 @@
+awswrangler
+boto3
+dash
+ipykernel
+jupyter
+jupyterlab 
+jupyterlab-git
+matplotlib 
+numpy 
+pandas
+PyYAML
+plotly 
+requests
+scikit-learn

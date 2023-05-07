@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  jupyter:
+    image: datascience-docker-eda
+    container_name: datascience-docker-eda
+    working_dir: "/DSEnv"
+    build: .
+    ports:
+      - "8889:8889"
+    volumes:
+      - "~/.aws:/root/.aws"
+      - "~/DSEnv:/DSEnv"
